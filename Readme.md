@@ -1,4 +1,6 @@
-# Glitter WebAssembly (Barely Tested)
+# Glitter WASM WebGL
+
+Fair warning, this is more of a playground than an actual project. It is functional, but rough around the edges. On my list is to add a `gh-pages` live demo branch.
 
 ![Screenshot](./Screenshot.png)
 
@@ -47,6 +49,7 @@ You'll see in the `CMakeLists.txt` file that we set the flags for Emscripten twi
 2. GLAD is not included per the same reason as GLFW, it's quite frankly unnecessary with Emscripten. You only need to say `#include <GLES3/gl3.h>`.
 
 ## License
+
 >The MIT License (MIT)
 
 >Copyright (c) 2018 Kevin Fung & Harry Gould
