@@ -14,7 +14,7 @@ Please read [Getting started with WebAssembly](https://webassembly.org/getting-s
 Now, start by cloning this repository, making sure to pass the `--recursive` flag to grab all the dependencies. If you forgot, then you can `git submodule update --init` instead.
 
 ```bash
-git clone --recursive https://github.com/HarryLovesCode/Glitter-WebAssembly
+git clone --recursive https://github.com/HarryLovesCode/WebAssembly-WebGL-Glitter
 cd Glitter
 mkdir Build
 cd Build
