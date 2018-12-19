@@ -1,5 +1,6 @@
 #ifndef MESH_HPP
 #define MESH_HPP
+#define STB_IMAGE_IMPLEMENTATION
 
 #include "shader.hpp"
 

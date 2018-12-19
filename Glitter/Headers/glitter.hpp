@@ -10,9 +10,11 @@
 #include <btBulletDynamicsCommon.h>
 #include <glm/glm.hpp>
 #include <glm/gtc/type_ptr.hpp>
-
-#define STB_IMAGE_IMPLEMENTATION
 #include <stb_image.h>
+
+#ifndef __EMSCRIPTEN__
+#include <glad/glad.h>
+#endif
 
 // Define Some Constants
 const int mWidth = 1280;

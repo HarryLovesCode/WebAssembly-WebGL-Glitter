@@ -1,5 +1,6 @@
 #include "camera.hpp"
 
+#include <GLES3/gl3.h>
 #include <glm/gtc/matrix_transform.hpp>
 
 Camera::Camera()

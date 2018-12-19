@@ -6,11 +6,11 @@
 #include <GLES3/gl3.h>
 
 #include "camera.hpp"
-#include "shader.hpp"
+#include "glitter.hpp"
 #include "model.hpp"
+#include "shader.hpp"
 
 GLFWwindow *mWindow;
-int width, height;
 Camera cam;
 Shader prog;
 Model mod;
@@ -35,7 +35,7 @@ int main()
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
     glfwWindowHint(GLFW_SAMPLES, 32);
 
-    mWindow = glfwCreateWindow(1440, 900, "WebGL", NULL, NULL);
+    mWindow = glfwCreateWindow(mWidth, mHeight, "WebGL", NULL, NULL);
 
     if (mWindow == nullptr)
     {
